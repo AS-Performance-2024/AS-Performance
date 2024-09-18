@@ -94,6 +94,7 @@ section {
 .contact-map {
     flex: 1;
     max-width: 45%;
+    text-align: right; /* Karte rechtsbündig ausrichten */
 }
 
 .contact-map iframe {

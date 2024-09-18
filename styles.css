@@ -1,0 +1,102 @@
+/* Allgemeine Einstellungen */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+.logo h1 {
+    color: gold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Banner */
+.banner {
+    background: url('banner.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content h2 {
+    font-size: 3em;
+    color: gold;
+}
+
+.banner-content p {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+/* Abschnitte */
+section {
+    padding: 40px 20px;
+}
+
+.about-section, .services-section, .projects-section, .contact-section {
+    background-color: #222;
+}
+
+/* Leistungen */
+.service {
+    margin-bottom: 20px;
+}
+
+/* Kontaktformular */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 1.2em;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    color: gold;
+}
